@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+::before {
+    box-sizing: border-box;
+  }
+::after {
+    box-sizing: border-box;
+  }
+#div1{
+    position: fixed;
+    top: 40px;
+    right: 40px;
+    transform: translateX(-50%);
+    word-break: break-all;
+}
+
+@media (max-width:500px){
+    #html{
+        height: 70vh;
+        overflow: hidden;
+    }
+    #wrapper{
+        height:30vh;
+        position: relative;
+    }
+    #div1{
+        position: absolute;
+        bottom: 0;
+        left: 100px;
+    }
+}
